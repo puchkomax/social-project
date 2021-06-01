@@ -1,2 +1,1 @@
-# social-project
-Project for NULP
+# getting start
