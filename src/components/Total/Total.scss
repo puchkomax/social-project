@@ -1,0 +1,83 @@
+@mixin total-border {
+  margin-right: 15px;
+  background: #7e8c8d;
+  color: #fff;
+  flex: 1;
+}
+
+@import '../../veriables.scss';
+
+.total {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 15px;
+
+  &__visitor {
+    @include total-border;
+  }
+
+  &__sale {
+    @include total-border;
+    margin-right: 15px;
+    background: $section-color;
+  }
+
+  &__user {
+    @include total-border;
+    margin-right: 15px;
+  }
+}
+
+.visitor {
+  &__header {
+    padding-left: 15px;
+    font-size: 25px;
+  }
+
+  &__count {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  &__suptitle {
+    margin-top: 20px;
+    padding-bottom:20px;
+    margin-left: 15px;
+  }
+}
+
+.sale {
+  &__header {
+    padding-left: 15px;
+    font-size: 25px;
+  }
+
+  &__count {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  &__suptitle {
+    margin-top: 20px;
+    padding-bottom:20px;
+    margin-left: 15px;
+  }
+}
+.user {
+  &__header {
+    padding-left: 15px;
+    font-size: 25px;
+  }
+
+  &__count {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  &__suptitle {
+    margin-top: 20px;
+    padding-bottom:20px;
+    margin-left: 15px;
+  }
+}

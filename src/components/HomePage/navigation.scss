@@ -1,0 +1,33 @@
+@import '../../veriables.scss';
+
+.navigation {
+  margin: 0;
+  list-style: none;
+  color: white;
+
+  &__item {
+    padding-top: 10px;
+  }
+
+  &__link {
+    margin-left: 8px;
+    color: white;
+    text-decoration: none;
+
+    
+    &:hover {
+      color: $section-color;
+    }
+  }
+
+  &__icon {
+    filter: brightness(0) invert(1);
+    width: 30px;
+    height: 30px;
+  }
+
+  &__contain {
+    display: flex;
+    align-items:center;
+  }
+}

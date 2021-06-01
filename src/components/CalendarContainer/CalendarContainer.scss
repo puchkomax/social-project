@@ -1,0 +1,30 @@
+.calendar-component {
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+
+.react-calendar {
+  background: #8e44ac;
+  color: #fff;
+  flex: 1;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #fff;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #fff;
+}
+
+.react-calendar__month-view__weekdays {
+  background: #9B59B6;
+  text-decoration: none;
+}
+.react-calendar__month-view__days {
+  margin-top: 50px;
+}
+
+button {
+  color: #fff;
+}

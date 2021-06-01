@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "userId": "1",
+      "name": "Maskym",
+      "secondName": "Puchko",
+      "notifyMessage": "42",
+      "notify": "14"
+    },
+    {
+      "userId": "2",
+      "name": "Alex",
+      "secondName": "Zinchenko",
+      "notifyMessage": "8",
+      "notify": "9"
+    }
+  ]
+}

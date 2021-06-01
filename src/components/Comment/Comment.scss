@@ -1,0 +1,19 @@
+.comment {
+  margin-top: 20px;
+  margin-left: 15px;
+  
+  &__menu {
+    display: flex;
+    color: #fff;
+  }
+
+  &__details {
+    margin: 0;
+    background: #e74c3c;
+    color: #fff;
+
+    list-style: none;
+    padding: 20px;
+    padding-left: 40px;
+  }
+}

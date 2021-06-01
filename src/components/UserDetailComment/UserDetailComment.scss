@@ -1,0 +1,14 @@
+.details {
+  &__container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  &__photo {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+  }
+}

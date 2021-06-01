@@ -1,0 +1,17 @@
+@import '../../veriables.scss';
+
+.header {
+  background-color: #0000;
+  max-width: $header-width;
+  width: 400px;
+
+  &__logo-menu {
+    height: 8vh;
+    background-color: $section-color;
+    padding: 25px;
+    text-align: center;
+    color: #eaff00;
+
+    font-size: 30px;
+  }
+}
